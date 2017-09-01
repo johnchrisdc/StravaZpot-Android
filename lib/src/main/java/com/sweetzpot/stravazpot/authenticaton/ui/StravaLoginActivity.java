@@ -34,7 +34,9 @@ public class StravaLoginActivity extends AppCompatActivity {
 
     private void configureWebViewClient() {
         loginWebview.getSettings().setJavaScriptEnabled(true);
-        loginWebview.getSettings().setUserAgentString("Mozilla/5.0 Google");
+        //loginWebview.getSettings().setUserAgentString("Mozilla/5.0 Google");
+
+        loginWebview.getSettings().setUserAgentString("Android");
 
         loginWebview.setWebViewClient(new WebViewClient(){
             @SuppressWarnings("deprecation")
