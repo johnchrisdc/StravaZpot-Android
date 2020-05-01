@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Activity {
-    @SerializedName("id") private int ID;
+    @SerializedName("id") private long ID;
     @SerializedName("resource_state") private ResourceState resourceState;
     @SerializedName("external_id") private String externalID;
     @SerializedName("upload_id") private int uploadID;
